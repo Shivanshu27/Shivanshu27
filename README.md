@@ -101,8 +101,8 @@ Senior Full Stack & Cloud Software Engineer (**IIT Kanpur**) with 5+ years of ex
 ### 📊 GitHub Activity & Insights
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shivanshu27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Shivanshu's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shivanshu27&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="45%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Shivanshu27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Shivanshu's GitHub Stats" width="49%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Shivanshu27&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="45%" />
 </div>
 
 <div align="center">
