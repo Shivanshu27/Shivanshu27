@@ -32,20 +32,23 @@ Specialized in infrastructure-as-code (Terraform, SAM, CloudFormation), containe
 
 ---
 
-### ✍️ Featured Engineering Deep Dives & War Stories
-
-I write detailed, production-tested deep dives on systems architecture, cloud infrastructure, and real-world post-mortems:
+### 🔬 Production War Stories & Post-Mortems
 
 * ⚡ **[Taming the 250MB AWS Lambda Limit: Dependency Surgery & BuildKit SSH Mounts](https://shivanshu27.github.io/my-personal-website/blog/taming-the-250mb-aws-lambda-limit/)**  
   *How we shrank an uncompressed serverless computer-vision runtime from 280MB to 148MB (47% reduction) using Docker BuildKit SSH mounts and targeted shared object symbol stripping.*
 * ☸️ **[From Kubernetes to AWS ECS Fargate: A Blueprint for Zero-Downtime ML Migrations](https://shivanshu27.github.io/my-personal-website/blog/from-kubernetes-to-ecs-fargate-ml-migration/)**  
-  *Migrating heavy ML workloads (Ray Serve 934MB OpenCLIP + 70+ Scikit-learn models) to serverless containers, taming 4-minute cold starts, and executing weighted Route 53 canary cutovers.*
+  *Migrating production ML inference workloads (Ray Serve vision inference on OpenCLIP alongside ensemble classification models) to serverless containers, taming 4-minute cold starts, and executing weighted Route 53 canary cutovers.*
 * 🔍 **[When Green Means Broken: Forensic Debugging of a Silent 77-Point Ingestion Failure](https://shivanshu27.github.io/my-personal-website/blog/debugging-silent-step-functions-ingestion-failures/)**  
   *Post-mortem on an AWS Step Functions silent failure where 79% of documents vanished while dashboards stayed 100% green; lifting reliability from 21% to 98%.*
-* 🔐 **[Defending Secrets in Hostile Territory: Multi-Layer KMS Envelope Encryption](https://shivanshu27.github.io/my-personal-website/blog/securing-api-keys-on-premise-client-infra.md)**  
+* 🔐 **[Defending Secrets in Hostile Territory: Multi-Layer KMS Envelope Encryption](https://shivanshu27.github.io/my-personal-website/blog/securing-api-keys-on-premise-client-infra/)**  
   *Deploying containerized microservices into client-owned cloud environments with Cloud KMS, AES-256-GCM AEAD, deceptive obfuscation envelopes, and distroless containers.*
+
+---
+
+### 📐 Distributed System Design Reference Blueprints
+
 * 🤖 **[Designing an Enterprise RAG Pipeline: Architecture & 94% Cost Optimization](https://shivanshu27.github.io/my-personal-website/blog/enterprise-rag-pipeline-architecture/)**  
-  *Slashing recurring LLM query spend from $65,000/day to ~$3,800/day across 100M document vectors using semantic caching, hybrid search (dense + BM25), and cross-encoder reranking.*
+  *System design reference blueprint detailing semantic caching, hybrid search (dense + BM25), and cross-encoder reranking, illustrating how semantic deduplication can reduce LLM query spend by up to 94% across 100M document vector corpora.*
 * ⏱️ **[Designing a Distributed Job Scheduler: Timeliness & Delivery Guarantees](https://shivanshu27.github.io/my-personal-website/blog/designing-a-distributed-job-scheduler/)**  
   *Decoupling dispatchers from workers, concurrent row-level polling with `SKIP LOCKED`, hot-horizon Redis ZSETs, and achieving "effectively-once" delivery via deterministic idempotency keys.*
 * 🗄️ **[SQL vs NoSQL: Architecture, Practical Trade-offs, and How to Choose](https://shivanshu27.github.io/my-personal-website/blog/sql-vs-nosql-a-senior-engineers-guide/)**  
@@ -126,7 +129,7 @@ I write detailed, production-tested deep dives on systems architecture, cloud in
 
 * 🔐 **Client On-Premise Cloud Security:** Architected an isolated vehicle interchange service on GCP Cloud Run with KMS envelope encryption (DEK + KEK), AES-256-GCM AEAD, deceptive obfuscation envelopes, and distroless Docker images (60% reduced attack surface).
 * ⚡ **High-Reliability Document Orchestration:** Engineered an enterprise AWS Step Functions state machine with cross-account S3 fan-out, elevating document ingestion reliability from **21% to 98%**, paired with server-side document synthesis and optimistic UI in Remix/React.
-* ☁️ **Zero-Downtime ML Workload Migration:** Led migration of production ML inference workloads (Ray Serve OpenCLIP + 70+ Scikit-learn models) to AWS ECS Fargate via SAM IaC, and optimized PyTorch computer-vision models into 148MB serverless Lambda runtimes.
+* ☁️ **Zero-Downtime ML Workload Migration:** Led migration of production ML inference workloads (Ray Serve vision inference on OpenCLIP alongside ensemble classification models) to AWS ECS Fargate via SAM IaC, and optimized PyTorch computer-vision models into 148MB serverless Lambda runtimes.
 * 🤖 **Enterprise RAG Platforms:** Built **ComSights** (1st place Microsoft Azure Hackathon 2024), cutting complex document comparison time by 30% through multi-agent workflows and vector retrieval.
 
 ---
