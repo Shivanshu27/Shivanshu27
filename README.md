@@ -3,13 +3,17 @@
 # Hi there, I'm Shivanshu Singla 👋
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vcenter=true&width=550&lines=Senior+Software+Engineer+%40+Tractable;IIT+Kanpur+Alum;Cloud+%26+Distributed+Systems+Architect;Building+AI-Driven+Enterprise+Platforms" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vcenter=true&width=620&lines=Backend+%26+Platform+Engineer;Production+AI+Systems+on+AWS+%26+GCP;IIT+Kanpur+Alum;Distributed+Systems+%26+Cloud-Native+Architecture" alt="Typing SVG" />
 </a>
 
 <p align="center">
-  <a href="https://shivanshu27.github.io/my-personal-website/"><img src="https://img.shields.io/badge/Portfolio-shivanshu27.github.io-3b82f6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://shivanshu27.github.io/my-personal-website/"><img src="https://img.shields.io/badge/Engineering_Blog-shivanshu27.github.io-3b82f6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Blog" /></a>
   <a href="https://linkedin.com/in/shivanshusingla"><img src="https://img.shields.io/badge/LinkedIn-shivanshusingla-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:shivanshu.singla27@gmail.com"><img src="https://img.shields.io/badge/Email-shivanshu.singla27@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+<p align="center">
+  <b>🌍 Remote · UTC+5:30 (4+ hrs daily overlap with US Eastern, full overlap with Europe) · Open to Senior Roles & Independent Contracts</b>
 </p>
 
 </div>
@@ -18,12 +22,34 @@
 
 ### 💫 Executive Summary
 
-Senior Full Stack & Cloud Software Engineer (**IIT Kanpur**) with 5+ years of experience architecting and scaling distributed cloud-native systems, event-driven microservices, and AI/ML production pipelines across **AWS, GCP, and Azure**.
+Senior Backend & Platform Software Engineer (**IIT Kanpur**) with 5+ years of experience architecting, deploying, and operating high-throughput distributed systems, event-driven pipelines, and production AI/ML infrastructure across **AWS, GCP, and Azure**. 
 
-- 💼 **Current Role:** Senior Software Engineer at **[Tractable](https://github.com/tractableai)**
+Specialized in infrastructure-as-code (Terraform, SAM, CloudFormation), containerized orchestration (ECS Fargate, Kubernetes, Docker), zero-trust security (KMS envelope encryption), and scalable asynchronous workflows.
+
 - 🎓 **Education:** B.Tech, Indian Institute of Technology (IIT) Kanpur
 - 🏆 **Awards:** 1st Place, Microsoft Azure Hackathon 2024
-- 🌐 **Personal Website:** [shivanshu27.github.io/my-personal-website](https://shivanshu27.github.io/my-personal-website/)
+- 🌐 **Personal Website & Blog:** [shivanshu27.github.io/my-personal-website](https://shivanshu27.github.io/my-personal-website/)
+
+---
+
+### ✍️ Featured Engineering Deep Dives & War Stories
+
+I write detailed, production-tested deep dives on systems architecture, cloud infrastructure, and real-world post-mortems:
+
+* ⚡ **[Taming the 250MB AWS Lambda Limit: Dependency Surgery & BuildKit SSH Mounts](https://shivanshu27.github.io/my-personal-website/blog/taming-the-250mb-aws-lambda-limit/)**  
+  *How we shrank an uncompressed serverless computer-vision runtime from 280MB to 148MB (47% reduction) using Docker BuildKit SSH mounts and targeted shared object symbol stripping.*
+* ☸️ **[From Kubernetes to AWS ECS Fargate: A Blueprint for Zero-Downtime ML Migrations](https://shivanshu27.github.io/my-personal-website/blog/from-kubernetes-to-ecs-fargate-ml-migration/)**  
+  *Migrating heavy ML workloads (Ray Serve 934MB OpenCLIP + 70+ Scikit-learn models) to serverless containers, taming 4-minute cold starts, and executing weighted Route 53 canary cutovers.*
+* 🔍 **[When Green Means Broken: Forensic Debugging of a Silent 77-Point Ingestion Failure](https://shivanshu27.github.io/my-personal-website/blog/debugging-silent-step-functions-ingestion-failures/)**  
+  *Post-mortem on an AWS Step Functions silent failure where 79% of documents vanished while dashboards stayed 100% green; lifting reliability from 21% to 98%.*
+* 🔐 **[Defending Secrets in Hostile Territory: Multi-Layer KMS Envelope Encryption](https://shivanshu27.github.io/my-personal-website/blog/securing-api-keys-on-premise-client-infra.md)**  
+  *Deploying containerized microservices into client-owned cloud environments with Cloud KMS, AES-256-GCM AEAD, deceptive obfuscation envelopes, and distroless containers.*
+* 🤖 **[Designing an Enterprise RAG Pipeline: Architecture & 94% Cost Optimization](https://shivanshu27.github.io/my-personal-website/blog/enterprise-rag-pipeline-architecture/)**  
+  *Slashing recurring LLM query spend from $65,000/day to ~$3,800/day across 100M document vectors using semantic caching, hybrid search (dense + BM25), and cross-encoder reranking.*
+* ⏱️ **[Designing a Distributed Job Scheduler: Timeliness & Delivery Guarantees](https://shivanshu27.github.io/my-personal-website/blog/designing-a-distributed-job-scheduler/)**  
+  *Decoupling dispatchers from workers, concurrent row-level polling with `SKIP LOCKED`, hot-horizon Redis ZSETs, and achieving "effectively-once" delivery via deterministic idempotency keys.*
+* 🗄️ **[SQL vs NoSQL: Architecture, Practical Trade-offs, and How to Choose](https://shivanshu27.github.io/my-personal-website/blog/sql-vs-nosql-a-senior-engineers-guide/)**  
+  *Deep dive into B-Trees vs LSM-Trees, Schema-on-Write vs Schema-on-Read, ACID vs BASE, and connection pool operational realities.*
 
 ---
 
@@ -36,65 +62,72 @@ Senior Full Stack & Cloud Software Engineer (**IIT Kanpur**) with 5+ years of ex
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-      <img src="https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-      <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=postgresql&logoColor=white" />
+      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>Frameworks & Web</b></td>
+    <td valign="top"><b>Frameworks & Runtimes</b></td>
     <td>
       <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
       <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black" />
       <img src="https://img.shields.io/badge/Remix_v2-000000?style=flat-square&logo=remix&logoColor=white" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
       <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>Cloud & DevOps</b></td>
+    <td valign="top"><b>Cloud & Infrastructure</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-      <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS_ECS_Fargate-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS_Step_Functions-FF9900?style=flat-square" />
+      <img src="https://img.shields.io/badge/GCP_Cloud_Run-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
+      <img src="https://img.shields.io/badge/Docker_BuildKit-2496ED?style=flat-square&logo=docker&logoColor=white" />
       <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
       <img src="https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-      <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
-      <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitHub_Actions_OIDC-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>Databases & Storage</b></td>
+    <td valign="top"><b>Messaging & Queues</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+      <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
+      <img src="https://img.shields.io/badge/AWS_SQS_%26_SNS-FF9900?style=flat-square" />
+      <img src="https://img.shields.io/badge/EventBridge-FF9900?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Databases & Caching</b></td>
     <td>
       <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
       <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
       <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
-      <img src="https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white" />
+      <img src="https://img.shields.io/badge/Qdrant-D13838?style=flat-square" />
     </td>
   </tr>
   <tr>
-    <td valign="top"><b>AI, ML & Architecture</b></td>
+    <td valign="top"><b>AI, ML & Security</b></td>
     <td>
       <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-      <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" />
       <img src="https://img.shields.io/badge/Ray_Serve-028CF0?style=flat-square&logo=ray&logoColor=white" />
-      <img src="https://img.shields.io/badge/RAG_%26_Agents-7952B3?style=flat-square" />
-      <img src="https://img.shields.io/badge/Event--Driven_Arch-1F4E79?style=flat-square" />
+      <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" />
+      <img src="https://img.shields.io/badge/KMS_Envelope_Encryption-0078D4?style=flat-square" />
+      <img src="https://img.shields.io/badge/Distroless_Containers-2496ED?style=flat-square" />
     </td>
   </tr>
 </table>
 
 ---
 
-### 🚀 Architecture & Impact Highlights
+### 🚀 Production Architecture Highlights
 
-* 🚗 **On-Premise Vehicle Interchange Service (Tractable):** Architected containerized interchange on GCP Cloud Run with KMS envelope encryption (DEK + KEK), distroless Docker images (60% reduced attack surface), and automated Harness CI/CD multi-tier promotion.
-* ⚡ **High-Reliability Ingestion Pipeline (Tractable):** Engineered AWS Step Functions state machine with cross-account S3 fan-out, elevating ingestion reliability from **21% to 98%**, paired with server-side document synthesis (@react-pdf) and optimistic UI in Remix/React.
-* ☁️ **Serverless & ML Cluster Modernization:** Led zero-downtime migration of production ML inference workloads to AWS ECS Fargate via SAM IaC, and optimized PyTorch face/plate detection models into 148 MB serverless Lambda runtimes.
-* 🤖 **Generative AI & RAG Platforms:** Created **ComSights** (1st place Microsoft Azure Hackathon 2024), cutting complex document analysis time by 30% through advanced RAG indexing and multi-agent workflows.
+* 🔐 **Client On-Premise Cloud Security:** Architected an isolated vehicle interchange service on GCP Cloud Run with KMS envelope encryption (DEK + KEK), AES-256-GCM AEAD, deceptive obfuscation envelopes, and distroless Docker images (60% reduced attack surface).
+* ⚡ **High-Reliability Document Orchestration:** Engineered an enterprise AWS Step Functions state machine with cross-account S3 fan-out, elevating document ingestion reliability from **21% to 98%**, paired with server-side document synthesis and optimistic UI in Remix/React.
+* ☁️ **Zero-Downtime ML Workload Migration:** Led migration of production ML inference workloads (Ray Serve OpenCLIP + 70+ Scikit-learn models) to AWS ECS Fargate via SAM IaC, and optimized PyTorch computer-vision models into 148MB serverless Lambda runtimes.
+* 🤖 **Enterprise RAG Platforms:** Built **ComSights** (1st place Microsoft Azure Hackathon 2024), cutting complex document comparison time by 30% through multi-agent workflows and vector retrieval.
 
 ---
 
@@ -112,5 +145,5 @@ Senior Full Stack & Cloud Software Engineer (**IIT Kanpur**) with 5+ years of ex
 ---
 
 <div align="center">
-  <sub>Designed with ❤️ by Shivanshu Singla · Updated dynamically</sub>
+  <sub>Senior Backend & Platform Engineer · IIT Kanpur · Open for Independent Remote Engagements</sub>
 </div>
