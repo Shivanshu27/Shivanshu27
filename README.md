@@ -32,6 +32,18 @@ Specialized in infrastructure-as-code (Terraform, SAM, CloudFormation), containe
 
 ---
 
+### 🧱 Featured Open-Source Projects
+
+* 🧾 **[statement](https://github.com/Shivanshu27/statement)** — Bank-statement PDFs → verified transactions. Deterministic parser first, LLM rescue second, and *only the balance-chain arithmetic decides acceptance*; a fenced Claude skill onboards new bank layouts.  
+  *Sealed 240-doc holdout: 0 accepted-but-wrong · 7,080/7,080 injected single-row errors caught.*
+* 📊 **[tally](https://github.com/Shivanshu27/tally)** — Multi-tenant usage metering: approximate Redis enforcement (AP) vs exact Postgres billing (CP), effectively-once via atomic offset+state checkpoints, and reconciliation behind a **completion gate**.  
+  *Against real Redpanda/Postgres/Redis: quota check p99 1.29 ms; the same data goes from a false REAL alarm ungated to MATCH gated.*
+* 🌏 **[outpost](https://github.com/Shivanshu27/outpost)** — Local-first job search for engineers outside the US/EU. Tri-state eligibility (UNKNOWN is shown, never hidden), 9-stage cost-gated pipeline, LLM results keyed by id.  
+  *444 tests · mypy strict · architecture enforced by import contracts in CI.*
+* ⚡ **[lambda-layer-squeeze](https://github.com/Shivanshu27/lambda-layer-squeeze)** — Reference implementation behind the 280MB → 148MB Lambda write-up.
+
+---
+
 ### 🔬 Production War Stories & Post-Mortems
 
 * ⚡ **[Taming the 250MB AWS Lambda Limit: Dependency Surgery & BuildKit SSH Mounts](https://shivanshu27.github.io/my-personal-website/blog/taming-the-250mb-aws-lambda-limit/)**  
@@ -125,11 +137,8 @@ Specialized in infrastructure-as-code (Terraform, SAM, CloudFormation), containe
 
 ---
 
-### 🚀 Production Architecture Highlights
+### 🏆 Applied AI Highlight
 
-* 🔐 **Client On-Premise Cloud Security:** Architected an isolated vehicle interchange service on GCP Cloud Run with KMS envelope encryption (DEK + KEK), AES-256-GCM AEAD, deceptive obfuscation envelopes, and distroless Docker images (60% reduced attack surface).
-* ⚡ **High-Reliability Document Orchestration:** Engineered an enterprise AWS Step Functions state machine with cross-account S3 fan-out, elevating document ingestion reliability from **21% to 98%**, paired with server-side document synthesis and optimistic UI in Remix/React.
-* ☁️ **Zero-Downtime ML Workload Migration:** Led migration of production ML inference workloads (Ray Serve vision inference on OpenCLIP alongside ensemble classification models) to AWS ECS Fargate via SAM IaC, and optimized PyTorch computer-vision models into 148MB serverless Lambda runtimes.
 * 🤖 **Enterprise RAG Platforms:** Built **ComSights** (1st place Microsoft Azure Hackathon 2024), cutting complex document comparison time by 30% through multi-agent workflows and vector retrieval.
 
 ---
@@ -137,8 +146,7 @@ Specialized in infrastructure-as-code (Terraform, SAM, CloudFormation), containe
 ### 📊 GitHub Activity & Insights
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Shivanshu27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&hide=prs,issues,contribs" alt="Shivanshu's GitHub Stats" width="49%" />
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Shivanshu27&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="45%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Shivanshu27&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="60%" />
 </div>
 
 <div align="center">
