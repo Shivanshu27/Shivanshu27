@@ -50,7 +50,7 @@ Specialized in infrastructure-as-code (Terraform, SAM, CloudFormation), containe
 * ⚡ **[Taming the 250MB AWS Lambda Limit: Dependency Surgery & BuildKit SSH Mounts](https://shivanshu27.github.io/my-personal-website/blog/taming-the-250mb-aws-lambda-limit/)**  
   *Fitting an OpenCV/ONNX inference stack into a Lambda layer (494MB → 230MB): BuildKit SSH mounts, dependency surgery, verification in the real Lambda image, and the CI gate that caught a 2.8MB overrun.*
 * ☸️ **[From Kubernetes to AWS ECS Fargate: A Blueprint for Zero-Downtime ML Migrations](https://shivanshu27.github.io/my-personal-website/blog/from-kubernetes-to-ecs-fargate-ml-migration/)**  
-  *Migrating production ML inference workloads (Ray Serve vision inference on OpenCLIP alongside ensemble classification models) to serverless containers, taming 4-minute cold starts, and executing weighted Route 53 canary cutovers.*
+  *Migrating production ML inference workloads (a ~1GB vision embedding model alongside dozens of ensemble models) to serverless containers, taming 4-minute cold starts, and executing weighted Route 53 canary cutovers.*
 * 🔍 **[When Green Means Broken: Forensic Debugging of a Silent 77-Point Ingestion Failure](https://shivanshu27.github.io/my-personal-website/blog/debugging-silent-step-functions-ingestion-failures/)**  
   *Post-mortem on an AWS Step Functions silent failure where 79% of documents vanished while dashboards stayed 100% green; lifting reliability from 21% to 98%.*
 * 🔐 **[Defending Secrets in Hostile Territory: Multi-Layer KMS Envelope Encryption](https://shivanshu27.github.io/my-personal-website/blog/securing-api-keys-on-premise-client-infra/)**  
