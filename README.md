@@ -40,7 +40,8 @@ Specialized in infrastructure-as-code (Terraform, SAM, CloudFormation), containe
   *Against real Redpanda/Postgres/Redis: quota check p99 1.29 ms; the same data goes from a false REAL alarm ungated to MATCH gated.*
 * 🌏 **[outpost](https://github.com/Shivanshu27/outpost)** — Local-first job search for engineers outside the US/EU. Tri-state eligibility (UNKNOWN is shown, never hidden), 9-stage cost-gated pipeline, LLM results keyed by id.  
   *444 tests · mypy strict · architecture enforced by import contracts in CI.*
-* ⚡ **[lambda-layer-squeeze](https://github.com/Shivanshu27/lambda-layer-squeeze)** — Reference implementation behind the 280MB → 148MB Lambda write-up.
+* ⚡ **[lambda-layer-squeeze](https://github.com/Shivanshu27/lambda-layer-squeeze)** — Public, reproducible version of the technique from the Lambda write-up: BuildKit SSH mounts + dependency surgery on an OpenCV/ONNX inference stack.  
+  *494MB → 230MB, verified inside the Lambda runtime image and CI-gated at 250MB.*
 
 ---
 
